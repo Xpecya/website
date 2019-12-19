@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.content_warp {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content_warp_box {
+    width: 1200px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.content_warp_col {
+    width: 270px;
+    float: left;
+    background: #333;
+}
+.content_warp_data {
+    float: right;
+    width: 850px;
+    padding-top: 65px;
+    padding-bottom: 55px;
+    color: #545152;
+    line-height: 23px;
+}
+
+.content_news {
+    width: 850px;
+    padding-top: 65px;
+    padding-bottom: 55px;
+    color: #545152;
+    line-height: 23px;
+}

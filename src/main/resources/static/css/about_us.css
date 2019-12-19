@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.lsgk{
+    display: block;
+    background: url(../../img/gate/hy_h2_bj.jpg);
+    height: 103px;
+    line-height: 112px;
+    font-size: 24px;
+    color: #ffb923;
+    padding-left: 40px;
+}
+.lsgk_item{
+    height: 43px;
+    line-height: 43px;
+    border-top: 1px solid #484848;
+    display: block;
+    padding-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.be_li{
+    margin-bottom: 15px;
+}
+
+.be_li .be_time{
+    color: #ee7700;
+    font-family: "Arial";
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.be_li .be_content{
+    margin-bottom: 8px;
+}

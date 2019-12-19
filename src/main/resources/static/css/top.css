@@ -1,0 +1,45 @@
+.top {
+    height: 92px;
+    width: 100%;
+    background: #666666;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.top .box {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.top .box .logo {
+    float:left;
+}
+
+.top .box .logo img {
+    max-height: 92px;
+}
+
+.top .box .nav {
+    float:right;
+    height:92px;
+}
+
+.top .box .nav li {
+    float:left;
+}
+
+.top .box .nav li a {
+    display: block;
+    line-height: 92px;
+    height: 92px;
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.top .cur {
+    background: #c83333;
+}

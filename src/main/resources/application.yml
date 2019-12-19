@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/hanyin?characterEncoding=utf8
+  jpa:
+    hibernate:
+      ddl-auto: update

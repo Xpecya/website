@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	    <title>汉印律师事务所后台管理系统</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+	    <script src="/lib/jquery.js"></script>
+	    <script src="/lib/package.js"></script>
+
+        <!-- login css -->
+        <link href="css/login.css" rel='stylesheet' type='text/css' />
+        <!-- login css end -->
+
+        <!-- login font -->
+        <link href="//fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" />
+        <!-- login font end -->
+
+	    <!-- js -->
+        <script src="index.js"></script>
+
+        <style>
+            .disappear {display: none}
+        </style>
+
+    </head>
+    <body>
+
+        <!-- login start -->
+        <div class="login">
+            <header>
+                <h1 class="text-center">汉印律师事务所后台管理系统</h1>
+            </header>
+
+            <div class="w3ls-login">
+                <form class="subscribe-form">
+                    <div class="agile-field-txt">
+                        <input type="text" id="name-subscribe" name="name" class="username" placeholder=" " required>
+                        <label>用户名<span>*</span></label>
+                    </div>
+                    <div class="agile-field-txt">
+                        <input type="password" id="password-subscribe" class="password" name="password" placeholder=" " required>
+                        <label>密码<span>*</span></label>
+                    </div>
+                    <div class="agile-field-txt">
+                        <button class="btn" onclick="onLoginClick(); return false;"> 登录</button>
+                    </div>
+                </form>
+            </div>
+
+            <!--copyright-->
+            <div class="copy-wthree">
+                <p>Copyrights © 2019 湖北汉印律师事务所 All right reserved. 京ICP备88888888号</p>
+            </div>
+            <!--//copyright-->
+        </div>
+        <!-- login end -->
+
+        <div class="content disappear">
+                <!-- Header -->
+                <div id="header">
+            	    <div class="shell">
+
+            		    <!-- Logo + Top Nav -->
+            		    <div id="top">
+            			    <h1><a href="#">汉印律师事务所后台管理系统</a></h1>
+            			    <div id="top-navigation">
+            				    Welcome <a href="#" class="username"></a>
+            				    <span>|</span>
+            				    <a href="#">退出登录</a>
+            			    </div>
+            		    </div>
+            		    <!-- End Logo + Top Nav -->
+
+            		    <!-- Main Nav -->
+            		    <div id="navigation">
+            			    <ul>
+            			        <li><span class="active introduction-nav"><span>律所简介</span></span></li>
+            			        <li><span><span>热点资讯</span></span></li>
+            			        <li><span><span>服务领域</span></span></li>
+            			        <li><span><span>团队介绍</span></span></li>
+            			        <li><span><span>合作伙伴</span></span></li>
+            			        <li><span><span>联系留言</span></span></li>
+            			    </ul>
+            		    </div>
+            		    <!-- End Main Nav -->
+
+            	    </div>
+                </div>
+                <!-- End Header -->
+
+                <!-- Container -->
+                <div id="container">
+                    <div class="shell">
+
+                        <!-- Small Nav -->
+                        <div class="small-nav">
+                            <a href="#">后台管理</a>
+                            <span> &gt; </span>
+                            <span class="introduction-nav"><a>律所简介</a></span>
+                        </div>
+                        <!-- End Small Nav -->
+
+                        <br />
+
+                        <!-- Main -->
+                        <div id="main">
+                            <div class="cl">&nbsp;</div>
+
+                            <!-- Content -->
+                            <div id="content">
+
+                                <!-- Box -->
+                                <div class="box">
+                                    <!-- Box Head -->
+                                    <div class="box-head">
+                                        <h2 class="left">简介标题</h2>
+                                    </div>
+                                    <!-- End Box Head -->
+
+                                    <!-- Table -->
+                                    <div class="table"></div>
+                                    <!-- Table -->
+
+                                </div>
+                                <!-- End Box -->
+
+                                <!-- Box -->
+                                <div class="box">
+                                    <!-- Box Head -->
+                                    <div class="box-head">
+                                        <h2>添加新简介内容</h2>
+                                    </div>
+                                    <!-- End Box Head -->
+
+                                    <form class="updateForm">
+
+                                        <!-- Form -->
+                                        <div class="form"></div>
+                                        <!-- End Form -->
+
+                                        <!-- Form Buttons -->
+                                        <div class="buttons"></div>
+                                        <!-- End Form Buttons -->
+                                    </form>
+                                </div>
+                                <!-- End Box -->
+
+                            </div>
+                            <!-- End Content -->
+
+                            <div class="cl">&nbsp;</div>
+                        </div>
+                        <!-- Main -->
+
+                </div>
+            </div>
+                <!-- End Container -->
+
+                <!-- Footer -->
+                <div id="footer">
+                	<div class="shell">
+                		<span class="left">&copy; 2019 - 汉印律师事务所</span>
+                		<span class="right">
+                			Design by <a href="http://chocotemplates.com" target="_blank" title="The Sweetest CSS Templates WorldWide">Xpecya Zhang</a>
+                		</span>
+                	</div>
+                </div>
+                <!-- End Footer -->
+        </div>
+</body>
+    <script>
+        // init
+        init();
+    </script>
+</html>
